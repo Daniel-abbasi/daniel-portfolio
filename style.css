@@ -1,0 +1,100 @@
+/* ===== پایه ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Vazirmatn', sans-serif;
+}
+
+body {
+  background-color: #0f1116;
+  color: #e5e5e5;
+  line-height: 1.8;
+  padding: 0 12%;
+}
+
+/* ===== هدر ===== */
+header {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  color: #00bfff;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+/* ===== بخش‌ها ===== */
+section {
+  margin-bottom: 80px;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  color: #00bfff;
+  border-bottom: 2px solid #00bfff44;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+section p, ul, li {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* ===== لیست مهارت‌ها ===== */
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+li {
+  background: #1b1e27;
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: 1px solid #2a2f3b;
+}
+
+/* ===== پروژه‌ها ===== */
+.project {
+  background: #181b24;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  border: 1px solid #2a2f3b;
+  transition: all 0.2s ease;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  border-color: #00bfff;
+}
+
+/* ===== ارتباط ===== */
+#contact a {
+  color: #00bfff;
+  text-decoration: none;
+  margin: 0 8px;
+  transition: color 0.2s ease;
+}
+
+#contact a:hover {
+  color: #66d9ff;
+}
+
+/* ===== فوتر ===== */
+footer {
+  text-align: center;
+  padding: 40px 0;
+  border-top: 1px solid #2a2f3b;
+  color: #666;
+  font-size: 0.9rem;
+}
