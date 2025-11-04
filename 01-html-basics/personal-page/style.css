@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header, section, footer {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #0078ff;
+}
+
+footer a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: #0078ff;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
